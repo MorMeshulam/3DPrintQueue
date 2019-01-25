@@ -1,4 +1,4 @@
 node_modules/
 server/node_modules
 yarn.lock
-public/
+public/bundle.js

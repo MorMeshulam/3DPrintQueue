@@ -1,6 +1,6 @@
 This project contains a client server app for handling printer queue.
 
- ### React + Redux and Resux Saga with NodeJs server with REST API and SocketIO integration.
+ ### React + Redux and Redux Saga with NodeJs server with REST API and SocketIO integration.
 
  ## The Project
  - this project originally created for printers but can be used for any other subject.
@@ -9,21 +9,21 @@ This project contains a client server app for handling printer queue.
 
  ## Getting started
 
-You can view a live demo over at https://youtu.be/BsBYhcM4bDA
+You can view a live demo over at https://youtu.be/EqSmr3s52FI
 
-To get the frontend running locally:
+
+## Get the project running locally:
 
 - Clone this repo
+### Running the client
+ - `npm install` or `yarn` to install all req'd dependencies
+ - `npm start` or `yarn start` to start the local server (this project uses create-react-app)
 
-- Running the client
-- `npm install` or `yarn` to install all req'd dependencies
-- `npm start` or `yarn start` to start the local server (this project uses create-react-app)
-
-- Running the server
-- under `/server` run `npm install` or `yarn` to install all req'd dependencies
-- `npm start` or `yarn start` to start the local server (this project uses create-react-app)
-- you can alse run it from base directory (client) with `npm run server` or `yarn server`
- Local web server will use port 4001 
+### Running the server
+ - under `/server` run `npm install` or `yarn` to install all req'd dependencies
+ - `npm start` or `yarn start` to start the local server (this project uses create-react-app)
+ - you can alse run it from base directory (client) with `npm run server` or `yarn server` <br>
+   Local web server will use port 4001 
  
 ### Making requests to the backend API
 you will have open REST API at `http://localhost:4001/api/queue`
@@ -48,6 +48,33 @@ If you want to change the API URL to a local server, simply edit
   on file `/server/services/socket.io.worker.js`
 
   *you maybe will need to add some adjusments and check for runtime bugs 
+  
+### User Load Testing and Simulate
+
+- you have the ability to create bulk of queue items
+  from the navigation bar on the app (with icon of LAB)
+  just click on the icon and a modal with 2 fields will open.
+  
+  - first field is the number of queue items you want to push to the queue.
+  - second field is a hash operator to make each item's duration different.
+  for instance if you choose :
+  number of items: 10
+  hash duration code: 5
+  the result will be:
+  <br><br>
+  item 1: duration : 1 X 5 = 5sec <br>
+  item 2: duration : 2 X 5 = 10sec <br>
+  item 3: duration : 3 X 5 = 15sec <br>
+  ..........<br>
+  item 10: duration : 10 X 5 = 50sec <br>
+  
+  ### `run bulk load test` from code
+ 
+  you can alse use this capability straight from code  <br>
+  under the queue model `/server/model/queue.js` -> this.test({...})
+  
+  ## Load Test Modal
+![App Queue With Items](https://firebasestorage.googleapis.com/v0/b/dprintqueue.appspot.com/o/app_queue_load.png?alt=media&token=466734a7-33b1-4dbe-8884-c001a1360106)
 
 
 **Real World and production considerations:**
