@@ -1,0 +1,22 @@
+
+.queue{
+    min-height: 100px;
+}
+.nav-item{
+    color:#fff;
+}
+
+.nav-tabs .nav-link{
+    color:#fff;
+    border: none !important;
+}
+
+.active{
+    color:#000 !important;
+}
+
+.empty{
+    font-size: 50pt;
+    color: #8080804f;
+    margin-top: 100px;
+}

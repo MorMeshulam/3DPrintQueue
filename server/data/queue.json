@@ -1,0 +1,38 @@
+{
+    "pending": [
+        {
+            "name": "Job1",
+            "duration": "100000",
+            "index": 0,
+            "isRunning": false
+        },
+        {
+            "name": "Job2",
+            "duration": "400000",
+            "index": 1,
+            "isRunning": false
+        },
+        {
+            "name": "Job3",
+            "duration": "80000",
+            "index": 2,
+            "isRunning": false
+        },
+        {
+            "name": "Job4",
+            "duration": "23000",
+            "index": 3,
+            "isRunning": false
+        },
+        {
+            "name": "Job5",
+            "duration": "156666",
+            "index": 4,
+            "isRunning": false
+        }
+    ],
+    "completed": [],
+    "size": 5,
+    "empty": false,
+    "working_item": null
+}

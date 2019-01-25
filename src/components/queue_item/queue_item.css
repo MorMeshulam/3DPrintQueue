@@ -1,0 +1,95 @@
+.queue__item{
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-bottom:solid rgba(0, 0, 0, 0.125);
+
+    text-align: left;
+}
+
+.queue__item_content{
+    display: inline-block;
+    font-size: 12pt;
+    margin-left: 20px;
+    min-width: 30%;
+}
+.queue__item_content p{
+    margin: 10px;    
+}
+
+.queue__item_progress{
+    margin-top: 10px;
+    display: inline-block;
+    height: 50px;
+    width: 80%;
+}
+.queue__item_pb{
+    min-width: 200px;
+    margin: 0px 50px 0px 50px
+}
+
+.controls__container{
+    flex-direction: row;
+    justify-content: center;
+    display: inherit;
+}
+
+.queue__item_cotrols{
+    display: inline-flex;
+    min-width: 10%;
+}
+
+
+.queue__item:hover{
+    background-color: #28b9b582;
+    cursor: pointer;
+}
+
+.control__btn{
+    font-size: 35px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+}
+
+.control__block{
+    flex-direction: column;
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.remove__btn{
+    color:#282c34;
+}
+
+.cancel__btn{
+    color:#fe2c27;
+}
+
+.move__btn{
+    color:#007bff
+}
+  
+.complete__btn{
+    color: #3bb15d;
+}
+
+.pending{
+    color:#fe2c278f
+}
+.printing{
+    color:#007bff
+}
+
+.working-item{
+    background-color: #00bcd40a
+}
