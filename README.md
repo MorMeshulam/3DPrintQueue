@@ -12,14 +12,14 @@ This project contains a client server app for handling printer queue.
 You can view a live demo over at https://youtu.be/BsBYhcM4bDA
 
 
-### To get the project running locally:
+# Get the project running locally:
 
 - Clone this repo
-# Running the client
+### Running the client
  - `npm install` or `yarn` to install all req'd dependencies
  - `npm start` or `yarn start` to start the local server (this project uses create-react-app)
 
-# Running the server
+### Running the server
  - under `/server` run `npm install` or `yarn` to install all req'd dependencies
  - `npm start` or `yarn start` to start the local server (this project uses create-react-app)
  - you can alse run it from base directory (client) with `npm run server` or `yarn server`
