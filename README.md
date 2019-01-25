@@ -22,7 +22,7 @@ You can view a live demo over at https://youtu.be/BsBYhcM4bDA
 ### Running the server
  - under `/server` run `npm install` or `yarn` to install all req'd dependencies
  - `npm start` or `yarn start` to start the local server (this project uses create-react-app)
- - you can alse run it from base directory (client) with `npm run server` or `yarn server`
+ - you can alse run it from base directory (client) with `npm run server` or `yarn server` <br>
    Local web server will use port 4001 
  
 ### Making requests to the backend API
