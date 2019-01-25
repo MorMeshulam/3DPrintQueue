@@ -12,7 +12,7 @@ This project contains a client server app for handling printer queue.
 You can view a live demo over at https://youtu.be/BsBYhcM4bDA
 
 
-# Get the project running locally:
+## Get the project running locally:
 
 - Clone this repo
 ### Running the client
