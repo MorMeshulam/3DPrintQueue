@@ -61,12 +61,12 @@ If you want to change the API URL to a local server, simply edit
   number of items: 10
   hash duration code: 5
   the result will be:
-  
-  item 1: duration : 1*5 = 5sec 
-  item 2: duration : 2*5 = 10sec 
-  item 3: duration : 3*5 = 15sec 
-  ..........
-  item 10: duration : 10*5 = 50sec 
+  <br><br>
+  item 1: duration : 1*5 = 5sec <br>
+  item 2: duration : 2*5 = 10sec <br>
+  item 3: duration : 3*5 = 15sec <br>
+  ..........<br>
+  item 10: duration : 10*5 = 50sec <br>
   
   ### `run bulk load test` from code
  
