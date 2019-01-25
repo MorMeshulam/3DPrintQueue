@@ -15,15 +15,15 @@ You can view a live demo over at https://youtu.be/BsBYhcM4bDA
 ### To get the project running locally:
 
 - Clone this repo
-- Running the client
-- `npm install` or `yarn` to install all req'd dependencies
-- `npm start` or `yarn start` to start the local server (this project uses create-react-app)
+# Running the client
+ - `npm install` or `yarn` to install all req'd dependencies
+ - `npm start` or `yarn start` to start the local server (this project uses create-react-app)
 
-- Running the server
-- under `/server` run `npm install` or `yarn` to install all req'd dependencies
-- `npm start` or `yarn start` to start the local server (this project uses create-react-app)
-- you can alse run it from base directory (client) with `npm run server` or `yarn server`
- Local web server will use port 4001 
+# Running the server
+ - under `/server` run `npm install` or `yarn` to install all req'd dependencies
+ - `npm start` or `yarn start` to start the local server (this project uses create-react-app)
+ - you can alse run it from base directory (client) with `npm run server` or `yarn server`
+   Local web server will use port 4001 
  
 ### Making requests to the backend API
 you will have open REST API at `http://localhost:4001/api/queue`
