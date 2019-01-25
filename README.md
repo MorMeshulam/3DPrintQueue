@@ -49,7 +49,7 @@ If you want to change the API URL to a local server, simply edit
 
   *you maybe will need to add some adjusments and check for runtime bugs 
   
-  ### User Load Testing and Simulate
+### User Load Testing and Simulate
 
 - you have the ability to create bulk of queue items
   from the navigation bar on the app (with icon of LAB)
@@ -73,7 +73,7 @@ If you want to change the API URL to a local server, simply edit
   you can alse use this capability straight from code  <br>
   under the queue model `/server/model/queue.js` -> this.test({...})
   
-## Load Test Modal
+  ## Load Test Modal
 ![App Queue With Items](https://firebasestorage.googleapis.com/v0/b/dprintqueue.appspot.com/o/app_queue_load.png?alt=media&token=466734a7-33b1-4dbe-8884-c001a1360106)
 
 
