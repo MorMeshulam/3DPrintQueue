@@ -4,8 +4,8 @@ This project contains a client server app for handling printer queue.
 
  ## The Project
  - this project originally created for printers but can be used for any other subject.
- - the project built from scratch and has minimum depandecies.
- - we use react-script to run tha app but you also have webpack preperd folder.
+ - the project built from scratch and has minimum dependencies.
+ - we use react-script to run the app but you also have webpack prepared folder.
 
  ## Getting started
 
