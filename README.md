@@ -1,6 +1,6 @@
 This project contains a client server app for handling printer queue.
 
- ### React + Redux and Resux Saga with NodeJs server with REST API and SocketIO integration.
+ ### React + Redux and Redux Saga with NodeJs server with REST API and SocketIO integration.
 
  ## The Project
  - this project originally created for printers but can be used for any other subject.
