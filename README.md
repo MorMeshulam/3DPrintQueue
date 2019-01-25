@@ -66,7 +66,7 @@ If you want to change the API URL to a local server, simply edit
   item 2: duration : 2 X 5 = 10sec <br>
   item 3: duration : 3 X 5 = 15sec <br>
   ..........<br>
-  item 10: duration : 10*5 = 50sec <br>
+  item 10: duration : 10 X 5 = 50sec <br>
   
   ### `run bulk load test` from code
  
