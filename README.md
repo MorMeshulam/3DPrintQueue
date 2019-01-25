@@ -70,8 +70,11 @@ If you want to change the API URL to a local server, simply edit
   
   ### `run bulk load test` from code
  
-  you can alse use this capability straight from code
+  you can alse use this capability straight from code  <br>
   under the queue model `/server/model/queue.js` -> this.test({...})
+  
+## Load Test Modal
+![App Queue With Items](https://firebasestorage.googleapis.com/v0/b/dprintqueue.appspot.com/o/app_queue_load.png?alt=media&token=466734a7-33b1-4dbe-8884-c001a1360106)
 
 
 **Real World and production considerations:**
