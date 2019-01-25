@@ -62,9 +62,9 @@ If you want to change the API URL to a local server, simply edit
   hash duration code: 5
   the result will be:
   <br><br>
-  item 1: duration : 1*5 = 5sec <br>
-  item 2: duration : 2*5 = 10sec <br>
-  item 3: duration : 3*5 = 15sec <br>
+  item 1: duration : 1 X 5 = 5sec <br>
+  item 2: duration : 2 X 5 = 10sec <br>
+  item 3: duration : 3 X 5 = 15sec <br>
   ..........<br>
   item 10: duration : 10*5 = 50sec <br>
   
