@@ -9,15 +9,12 @@ This project contains a client server app for handling printer queue.
 
  ## Getting started
 
-You can view a live demo over at 
-
-[![Watch the video](https://firebasestorage.googleapis.com/v0/b/dprintqueue.appspot.com/o/Screen%20Shot%202019-01-25%20at%2015.04.49.png?alt=media&token=ac6e9855-a7ea-4a15-9559-b2a53775a503)](https://youtu.be/BsBYhcM4bDA)
+You can view a live demo over at https://youtu.be/BsBYhcM4bDA
 
 
-To get the frontend running locally:
+### To get the project running locally:
 
 - Clone this repo
-
 - Running the client
 - `npm install` or `yarn` to install all req'd dependencies
 - `npm start` or `yarn start` to start the local server (this project uses create-react-app)
