@@ -48,6 +48,30 @@ If you want to change the API URL to a local server, simply edit
   on file `/server/services/socket.io.worker.js`
 
   *you maybe will need to add some adjusments and check for runtime bugs 
+  
+  ### User Load Testing and Simulate
+
+- you have the ability to create bulk of queue items
+  from the navigation bar on the app (with icon of LAB)
+  just click on the icon and a modal with 2 fields will open.
+  
+  - first field is the number of queue items you want to push to the queue.
+  - second field is a hash operator to make each item's duration different.
+  for instance if you choose :
+  number of items: 10
+  hash duration code: 5
+  the result will be:
+  
+  item 1: duration : 1*5 = 5sec 
+  item 2: duration : 2*5 = 10sec 
+  item 3: duration : 3*5 = 15sec 
+  ..........
+  item 10: duration : 10*5 = 50sec 
+  
+  ### `run bulk load test` from code
+ 
+  you can alse use this capability straight from code
+  under the queue model `/server/model/queue.js` -> this.test({...})
 
 
 **Real World and production considerations:**
