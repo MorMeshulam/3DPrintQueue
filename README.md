@@ -9,7 +9,7 @@ This project contains a client server app for handling printer queue.
 
  ## Getting started
 
-You can view a live demo over at https://youtu.be/mQA-nd1u88M
+You can view a live demo over at https://youtu.be/EqSmr3s52FI
 
 
 ## Get the project running locally:
